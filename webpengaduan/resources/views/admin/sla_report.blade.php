@@ -37,7 +37,7 @@
             </td>
             <td>{{ $p->created_at }}</td>
             <td>{{ $p->updated_at }}</td>
-            <td>{{ $p->user->username ?? 'N/A' }}</td>
+            <td>{{ $p->user->name ?? 'N/A' }}</td>
             <td>{{ $p->sla_duration }}</td>
             <td>{{ $p->sla_hours }}</td>
         </tr>
